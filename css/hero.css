@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.hero-img img {
+  max-inline-size: 100%;
+  block-size: 100%;
+}
+
 .hero h1 {
   font: var(--headline3);
   margin: 0;
