@@ -4,6 +4,7 @@
   gap: 16px;
   max-inline-size: 540px;
   margin: auto;
+  margin-block-end: 80px;
 }
 
 .formulario .title {
