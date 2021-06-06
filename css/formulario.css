@@ -2,4 +2,40 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-inline-size: 540px;
+  margin: auto;
+}
+
+.formulario .title {
+  text-transform: uppercase;
+}
+
+.formulario p {
+  color: var(--white);
+  margin: 0;
+  font: var(--body1);
+  text-align: center;
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input, .formulario textarea {
+  border-radius: 8px;
+  border: 2px solid #858C94;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  font: var(--body1);
+  margin-block-start: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .formulario .title {
+    align-self: stretch;
+    text-align: center;
+  }
 }
